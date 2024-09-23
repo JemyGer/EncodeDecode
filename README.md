@@ -11,7 +11,7 @@ var div = document.createElement("div");
 // ein neues <div>-Element wird erstellt. Dies ist ein Container, der verwendet wird um den Text sicher zu verarbeiten.
 
 div.appendChild(document.createTextnode(str));
-// Ein Textknoten wird aus dem üvergebenen String str erstellt. Das Hinzufügen dieses Textknotens zum <div> sorgt dafür, dass spezielle 
+// Ein Textknoten wird aus dem übergebenen String (str) erstellt. Das Hinzufügen dieses Textknotens zum <div> sorgt dafür, dass spezielle 
 	HTML-Zeichen wie < und > nicht als HTML-Tags, sondern als Text behandelt werden.
 
 
